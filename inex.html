@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="wclassth=device-wclassth, initial-scale=1.0">
+    <title>Amazon</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script> -->
+    <link rel="stylesheet" href="style.css">
+    <style>
+        *{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+.nav1{
+    height: 60px;
+    background-color: #0f1111 ;
+    color: white;
+    display: flex;
+}
+.nav-log{
+    padding-bottom: 15px;
+    height: 53px;
+    width: 125px;
+}
+
+.log{
+    background-image: url("amazon_logo.jpg");
+    height: 48px;
+    width: 100%;
+    background-size: cover;
+}
+.bor{
+    border: 1.5px solid transparent;
+}
+.bor:hover{
+    border: 1.5px solid white;
+}
+.address{
+    padding: 3px;
+    margin: 0px 12px 7px 4px;
+}
+.first-add{
+    font-size: 12px;
+    color: #cccccc;
+    padding-top: 7px;
+    padding-left: 15px;
+    padding-right: 3px;
+}
+.sec-add{
+    font-size: 15px;
+    padding-left: 3px;
+}
+.addd{
+    display: flex;
+}
+.nav-filll{
+    color: #0f1111;
+    width: 550px;
+    text-align: center;
+    border-radius: 4px;
+}
+.nav--search{
+    height: 60px;
+    width: px;
+    color: #0f1111;
+    /* margin: 0px 5px; */
+    padding: 10px 4px 10px 3px;
+    display: flex;
+    border-radius: 4px;
+}
+.alll{
+    height: 33px;
+    width:50px;
+    margin: 0px;
+    background-color: #E6E6E6;
+    padding: 0px 0px 0px 5px;
+
+}
+.inputt{
+    width: 700px;
+    height: 33px;
+    margin: 0px;
+}
+.searchh-icon{
+    background-color: orange;
+    height: 36px;
+    width: 40px;
+    margin-right: 2px;
+}
+#rpart{
+    display: flex;
+    margin-left: 0px;
+}
+#en{
+    width: 60px;
+    height: 56px;
+    margin: 1px;
+    padding: 10px;
+    margin-top: 0px;
+}
+#en:hover{
+    border: 2px solid white;
+}
+.lang{
+        background-color:#0f1111 ;
+        color: #D6D6D6;
+        width: 45px;
+        height: 34px;
+        border: none;
+    }
+#signin{
+    margin:1px;
+    height: 54px;
+    width: 145px;
+    padding: 2px;
+}
+#list{
+    width: 70px;
+}
+#signin:hover{
+    border: 2px solid white;
+}
+#AL{
+    background-color: #0f1111;
+    color: #8a8989;
+    border: none;
+    font-weight: 3000px;  
+}
+#p{
+    font-size: 15px;
+    margin: 1px;
+    color: white;
+}
+#ro{
+    margin: 1px;
+    padding: 8px;
+    color: white;
+}
+#ro:hover{
+    border: 2px solid white;
+}
+#cart{
+    display: flex;
+    margin:1px;
+    padding: 6px;
+    color: white;
+}
+#cart:hover{
+    border: 2px solid white;
+}
+#cart-logo{
+    padding: 1px 0px 12px 0px;
+    margin: 5px;
+}
+#span{
+    margin-left: auto;
+}
+.nav2{
+    background-color: #232f3e;
+    color: white;
+    display: flex;
+    width: 100vw;
+    height: 43px;
+    font-size: 15px;
+    margin-bottom: 1px;
+}
+.all{
+    padding: 10px 15px 10px 15px;
+}
+.fresh{
+    padding: 10px 15px 10px 15px;
+}
+.mx{
+    padding: 10px 15px 10px 15px;
+}
+.sell{
+    padding: 10px 15px 10px 15px;
+}
+.bs{
+    padding: 10px 15px 10px 15px;
+}
+.td{
+    padding: 10px 15px 10px 15px;
+}
+.mob{
+    padding: 10px 15px 10px 15px;
+}
+.pr{
+    padding: 10px 15px 10px 15px;
+}
+.e{
+    padding: 10px 15px 10px 15px;
+}
+.ap{
+    padding: 10px 15px 10px 15px;
+}
+.fashion{
+    padding: 10px 15px 10px 15px;
+}
+.hk{
+    padding: 10px 15px 10px 15px;
+}
+.com{
+    padding: 10px 15px 10px 15px;
+}
+.books{
+    padding: 10px 15px 10px 15px;
+}
+.car{
+    padding: 10px 15px 10px 15px;
+}
+.tg{
+    padding: 10px 0px 10px 0px ;
+}
+#same:hover{
+    border: 0.8px solid white;
+}
+.bghs{
+    background-image: url('https://images-eu.ssl-images-amazon.com/images/G/31/img22/Wireless/devjyoti/GW/Uber/Nov/uber_new_high._CB537689643_.jpg');
+    height: 100vh;
+}
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="nav1">
+
+            <div class="nav-log bor">
+                <div class="log"></div>
+            </div>
+
+            <div class="address bor">
+                <div class="first-add">Delivering to Rajahmundry 533107</div>
+                <div class="addd">
+                    <i class="fa fa-location-dot sym"></i>
+                    <div class="sec-add"><b>Update Location</b></div>
+                </div>
+            </div>
+            <div class="nav-filll">
+                <div class="nav--search">
+                    <select class="alll">
+                        <option>All</option>
+                    </select>
+                    <div>
+                        <input class="inputt" placeholder="Search Amazon">
+
+                    </div>
+                    <div>
+                        <button class="searchh-icon"><i class="fa fa-magnifying-glass"></i>
+                            </i>
+                            </i></button>
+                    </div>
+                    <div id="rpart">
+                <div id="en">
+                    <select class="lang">
+                        <option>EN</option>
+                    </select>
+
+                </div>
+                <div id="signin">
+                    <p id="p">Hello sign in</p>
+                     <select id="AL">
+                        <option id="list">Account & Lists</option>
+                     </select>
+                </div>
+                <div id="ro">
+                    <div>Returns</div>
+                    <div><b>&Orders</b></div>
+                </div>
+                <div id="cart">
+                    <div id="cart-logo"><i class="fa-solid fa-cart-shopping"></i></div>
+                    <div><p style="font-size: 20px;padding-top: 5px;"><b>Cart</b></p></div>
+                </div>
+            </div>
+                </div>
+            </div>
+        </div>
+        <div class="nav2">
+            <div id="same" class="all"><i class="fa-solid fa-sliders"></i>   All</div>
+            <div id="same" class="fresh">Fresh</div>
+            <div id="same" class="mx">MX Player</div>
+            <div id="same" class="sell">Sell</div>
+            <div id="same" class="bs">Best Sellers</div>
+            <div id="same" class="td">Today's Deals</div>
+            <div id="same" class="mob">Moblies</div>
+            <div id="same" class="pr">Prime</div>
+            <div id="same" class="e">Electronics</div>
+            <div id="same" class="ap">Amazon Pay</div>
+            <div id="same" class="fashion">Fashion</div>
+            <div id="same" class="hk">Home & Kitchen</div>
+            <div id="same" class="com">Computers</div>
+            <div id="same" class="books">Books</div>
+            <div id="same" class="car">Car & Motorbike</div>
+            <div id="same" class="tg">Toys & Games</div>
+        </div>
+    </header>
+    <div class="bghs"></div>
+</body>
+</html>
